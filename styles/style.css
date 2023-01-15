@@ -390,6 +390,7 @@ margin-bottom: 50px;
     background: #FF900E;
     font-size: 16px;
     margin-top: 10px;
+    border-radius: 5px;
  }
  /* media queries  */
  /* mobile view  */
@@ -400,6 +401,7 @@ margin-bottom: 50px;
     }
     .container{
         width: 100%;
+        padding: 20px;
     }
     .team{
         flex-direction: column;
