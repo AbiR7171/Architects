@@ -17,7 +17,7 @@ header{
     
 } 
 /* nav style start  */
-nav, .container{
+ .container{
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -79,7 +79,7 @@ nav, .container{
     border-radius: 5px;
 }
 .head-img{
-    width: 100%;
+    width: 1140px;
     height: 700px;
 }
 /* header style end  */
@@ -120,6 +120,8 @@ nav, .container{
     color: #727272;
     margin-bottom: 30px;
 }
+/* team style end  */
+/* architect style start  */
 .architect-info{
     display: flex;
     justify-content: center;
@@ -148,7 +150,8 @@ margin-bottom: 30px;
     border-left: 5px solid #FF900E;
     border-radius: 5px;
 }
-.
+ /* architect style end  */
+ /* feature style start  */
 .feature-name{
     font-weight: 600;
     font-size: 20px;
@@ -167,7 +170,9 @@ margin-bottom: 30px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     margin-bottom: 30px;
-}
+} 
+/* feature style end  */
+/* .experience style start  */
 .experience{
  background-color: #FF900E;
  border-radius: 8px;
@@ -190,7 +195,9 @@ text-align: center;
 font-size: 25px;
 color: #FFFFFF;
 text-align: center;
-}
+} 
+/* .experience style end  */
+/* fact style start */
 .fact-title{
     font-weight: 700;
 font-size: 45px;
@@ -207,7 +214,7 @@ margin-bottom: 100px;
 .fact-box-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 70px;
+    gap: 50px;
     max-width: 1040px;
     margin: 0 auto;
 }
@@ -231,7 +238,67 @@ margin-bottom: 100px;
     box-shadow: 0px 5px 5px 5px rgba(36, 13, 13, 0.06);
     color: #ffffff;
 }
-.sponspor-title{
+/* fact style end  */
+/* extra section start  */
+.projects-title{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+text-align: center;
+margin-bottom: 50px;
+
+}
+ .project-box{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 30px;
+   margin-bottom: 100px;
+   
+ }
+ .project{
+ border: 1px solid #ffffff;
+ padding: 20px ;
+ box-shadow: 2px 2px 30px rgb(219, 219, 219);
+ border-radius: 8px;
+ }
+ .project>img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 5px;
+ }
+ .project-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+ }
+ .project-descrip{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #424242;
+ }
+ .rating{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    margin-top: 10px;
+ }
+ .fa-star{
+    color: #FF900E;
+ }
+ .project-btn{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border: 0;
+    background: #FF900E;
+ }
+ /* extra section end  */
+/* sponsor style start  */
+.sponspor{
+    
+}
+.sponspor-title {
     font-weight: 700;
 font-size: 45px;
 color: #131313;
@@ -239,7 +306,7 @@ text-align: center;
 margin-bottom: 20px;
 
 }
-.sponspor-descrip{
+.sponspor-descrip {
     font-weight: 400;
 font-size: 16px;
 color: #727272;
@@ -249,16 +316,18 @@ margin-bottom: 50px;
 .sponspor-img{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap: 100px;
+    gap: 50px;
     margin-bottom: 100px;
 }
 .sponspor-img>img{
-    width: 9vw;
+    width: 180px;
     filter: brightness(0);
 }
+/* sponsor style end  */
+/* footer style start  */
 .footer{
     background: #FFF4E7;
-    width: 100%;
+    width: 100%;There 
 }
 .footer-descrip{
     text-align: center;
@@ -266,3 +335,161 @@ margin-bottom: 50px;
 line-height: 23px;
 padding: 30px 0;
 }
+/* footer style end  */
+.projects-title{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+text-align: center;
+margin-bottom: 50px;
+
+}
+ .project-box{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 30px;
+   margin-bottom: 100px;
+   
+ }
+ .project{
+ border: 1px solid #ffffff;
+ padding: 20px ;
+ box-shadow: 2px 2px 30px rgb(219, 219, 219);
+ border-radius: 8px;
+ }
+ .project>img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 5px;
+ }
+ .project-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+ }
+ .project-descrip{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #424242;
+ }
+ .rating{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    margin-top: 10px;
+ }
+ .fa-star{
+    color: #FF900E;
+ }
+ .project-btn{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border: 0;
+    background: #FF900E;
+    font-size: 16px;
+    margin-top: 10px;
+ }
+ /* media queries  */
+ /* mobile view  */
+ 
+ @media screen and (max-width:576px) {
+    .hide{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .team{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .team-img{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .team-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+.architect-info{
+    flex-direction: column;
+    padding: 20px;
+}
+.feature-image>img{
+    width: 100%;
+}
+.experience{
+        width: 120px;
+        height: 120px;
+        left: -30px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.experience-year{
+    font-size: 25px;
+}
+.experience-title{
+    font-size: 16px;
+}
+.fact{
+    text-align: center;
+    padding: 20px;
+}
+.fact-box-container{
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px;
+}
+.project-box{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+}
+.sponspor-info{
+    padding: 20px;
+}
+.sponspor-img{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 90px;
+}
+.footer-descrip{
+ font-size: 20px;
+}
+.nav-deatiels{
+    padding: 5px 20px;
+   
+}
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -50px;
+}
+.header-info{
+    padding: 20px;
+}
+.header-img{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.header-img>img{
+    width: 100%;
+    height: 550px;
+}
+    
+    
+}
+    
+
+
